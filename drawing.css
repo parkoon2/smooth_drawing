@@ -1,0 +1,26 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: url(http://cssdeck.com/uploads/media/items/1/1SEcq61.png);
+}
+
+#sketch {
+	border: 10px solid gray;
+	height: 100%;
+	position: relative;
+}
+
+#tmp_canvas {
+	position: absolute;
+	left: 0px; right: 0;
+	bottom: 0; top: 0;
+	cursor: crosshair;
+}
+
+form {
+	padding: 10px; margin: 10px;
+	background: whiteSmoke;
+}

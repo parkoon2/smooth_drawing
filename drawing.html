@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./drawing.css">
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="pencil">Pencil</label>
+                <input id="pencil" type="radio" name="tool" value="pencil" checked>
+            </div>
+            
+            <div>
+                <label for="eraser">Eraser</label>
+                <input id="eraser" type="radio" name="tool" value="eraser">
+            </div>
+        </form>
+        
+        <div id="sketch">
+            <canvas id="paint"></canvas>
+        </div>
+        <script src="./drawing.js"></script>
+    </body>
+</html>
